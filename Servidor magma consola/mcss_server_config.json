@@ -1,0 +1,26 @@
+{
+  "guid": "bfa2f4bd-cf12-4381-a6f8-e6175dd63608",
+  "serverTypeGuid": "de188054-f3ac-472d-81d6-c57f0412bfa6",
+  "name": "Servidor magma consola",
+  "description": "",
+  "creationDate": "2023-03-11T16:46:36.4628996+01:00",
+  "autostart": false,
+  "forceSaveOnStop": true,
+  "stopPrevention": "None",
+  "startupMethode": "JavaStartupLine",
+  "allocatedMemory": 4096,
+  "allocatedMemorySuffix": "GB",
+  "startupLine": "java -Xmx1024m -jar -Dfile.encoding=UTF-8 magma.jar -o false",
+  "startupBatFilename": "",
+  "serverFileChecksum": "fc868619f72f9bbf0f038355efa2eb4efc28d04823b76a79cc0f64c786830722",
+  "serverFileVersion": "1.12.2-magma1.12.2-b43297ee",
+  "javaPathOverride": "",
+  "tasks": {
+    "scheduledTasks": []
+  },
+  "backups": {
+    "backupTemplates": [],
+    "backupHistory": []
+  },
+  "subServers": []
+}

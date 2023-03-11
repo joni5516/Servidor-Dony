@@ -1,0 +1,29 @@
+# Treasure SETTING, You can made you own treasure and check it in /tr gui!
+# Treasure EXP
+Treasure_exp:
+  customTreasure_1: 0
+Treasure_name:
+  customTreasure_1: '&f&lCustom Treasure 1'
+Treasure_texture:
+  customTreasure_1: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJkZDYyZjI1ZjRhNDljYzQyZTA1NGEzZjIxMmMzZTAwOTIxMzgyOTkxNzJkN2Q4ZjNkNDM4MjE0Y2E5NzJhYyJ9fX0=
+Chance:
+  customTreasure_1: 10000.0
+Treasure_command:
+  customTreasure_1: money give %player% 1
+Treasure:
+  customTreasure_1:
+    DIAMOND:
+      lower: 100
+      upper: 300
+      chance: 0.5
+    TECHGUNS_PISTOL:
+      Data:
+        ==: org.bukkit.inventory.ItemStack
+        type: TECHGUNS_PISTOL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAAAONiYGBiYEnMzc1nYOJg4AYxyhKLMhPzShjYU1LTEktzShgZWJITgfIMAIhSQtgsAAAA
+      lower: 100
+      upper: 300
+      chance: 100.0

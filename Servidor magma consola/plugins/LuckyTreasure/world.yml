@@ -1,0 +1,14 @@
+# Version 2.7 update
+# The range of treasure for each world
+World:
+  world:
+    Half_Neg_location: 0.2
+    Neg_location: 0.5
+    Treasure_X_lower: 0
+    Treasure_X: 30000
+    Treasure_Z_lower: 0
+    Treasure_Z: 30000
+    Treasure_Y: 5
+    Treasure_Y_Max: 100
+    Range_X: 30
+    Range_Z: 30

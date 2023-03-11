@@ -1,0 +1,59 @@
+# Treasure GUI
+GUI_title: LuckyTreasure (Page.%page%)
+GUI_back: '&6Back to the main menu'
+GUI_previous: '&7Previous page'
+GUI_next: '&7Next page'
+GUI_close: '&cClose Menu'
+Treasure_Lore:
+- '&7Exp: &e%exp%'
+- '&7Chance: &a%chance%'
+GUI_player_treasure_down_lore:
+- ''
+- '&aLeft-click to open treasure content'
+GUI_admin_treasure_down_lore:
+- ''
+- '&aLeft-Click to open treasure edit'
+- '&eMiddle-Click to rename the treasure'
+- '&bShift+Right-Click to remove this treasure'
+GUI_create_treasure_back: '&6Back to lucky treasure'
+GUI_ceate_treasure_title: '%treasure% (Page.%page%)'
+GUI_no_perm_name: '&cNo Permission'
+GUI_create_treasure_info_name: '&7Treasure setting'
+GUI_create_treasure_info_lore:
+- ''
+- '&aLeft-Click to edit the chance'
+- '&bRight-Click to edit the exp'
+GUI_create_treasure_name: '&7Create treasure'
+GUI_create_treasure_lore:
+- ''
+- '&aClick to create a custom treasure'
+GUI_player_create_treasure_item_lore:
+- '&7Chance: &a%chance%'
+- '&7Lower: &6%lower%'
+- '&7Upper: &6%upper%'
+GUI_create_treasure_item_lore:
+- '&7Chance: &a%chance%'
+- '&7Lower: &6%lower%'
+- '&7Upper: &6%upper%'
+- ''
+- '&aLeft-Click to edit the chance'
+- '&eMiddle-Click to edit the quantity'
+- '&bShift+Right-Click to remove this item'
+Treasure_no_location_message: '&7[&eLucky&6Treasure&7] &7It doesn''t have any treasure
+  location now'
+Treasure_location_message: '&7[&eLucky&6Treasure&7] %location%'
+Treasure_time_message: '&7[&eLucky&6Treasure&7] Treasure time: &b%time%'
+Reload_message: '&7[&eLucky&6Treasure&7] &aThis plugin has been reload.'
+Help_message: '&7[&eLucky&6Treasure&7] &cDid you use the wrong method of this command?
+  Try &6/tr help'
+No_perm_message: '&7[&eLucky&6Treasure&7] &cYou don''t have permission'
+GetTreasure_message:
+- '&7[&eLucky&6Treasure&7] &7Player &6%player% &7has found %treasure%'
+OpenPlayer_title_message: '%treasure%'
+OpenPlayer_subtitle_message: is found!
+Message:
+- '&7[&eLucky&6Treasure&7] %treasure% &7has been found in &6%world% &7It will gone
+  at &b%time%m&7. Treasure is near at &6%treasure_X%&7, &6%treasure_Z%&7.'
+Gone_message: '&7[&eLucky&6Treasure&7] &7One of the %treasure% &7is gone...'
+Have_treasure_today_message: '&7[&eLucky&6Treasure&7] &7It will show up a &6treasure
+  &7today!'

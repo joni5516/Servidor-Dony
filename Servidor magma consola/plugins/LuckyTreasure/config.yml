@@ -1,0 +1,59 @@
+# Treasure time detect world
+# it may needs to restart server
+Detect_world: world
+# Version 2.4 update
+# No random time treasure
+Disable_random_treasure: true
+# for the back button that is near the close button
+# if set it to true, it needs to be a command for clicking
+# for example if you using DeluxeMenu, GUI_back_command: dm open mainmenu
+GUI_back_button: false
+GUI_back_command: []
+# Detect which world can set the treasure
+Enable_world:
+  - world
+# Version 1.4 update
+# world replaced name
+World_name:
+  world: "&asurivial world"
+# Max treasure in 1 week
+Max_treasure: 7
+# Version 1.1 update
+# chance to half neg location (default: 20% -> 0.2)
+Half_Neg_location: 0.2
+# chance to neg location (default: 50% -> 0.5)
+Neg_location: 0.5
+# chance to no treasure (default: 50% -> 0.5)
+No_treasure: 0.5
+# get treasure time (time base to long value)
+Treasure_time_lower: 1500
+Treasure_time_upper: 20000
+# Version 2.6 update
+# Treasure Y detection
+# Treasure Y Max means if check the block Treasure_Y to Treasure_Y_Max still has space
+# If not, It'll change other position to spawn treasure
+Treasure_Y: 5
+Treasure_Y_Max: 100
+# set max range of the treasure (default: 2000 -> 0-2000)
+Treasure_X_lower: 0
+Treasure_X: 30000
+Treasure_Z_lower: 0
+Treasure_Z: 30000
+# send players information of the treasure setting (neg and pos)
+# It means the message for players is random -30 to 30 range of the treasure real location
+Range_X: 30
+Range_Z: 30
+# Treasure existing time (default: 20 mins)
+Treasure_time: 20
+# version 1.2 update: placeholder support and custom line message
+# If Treasure_haveExpEarn = false, the treasure will not have exp drop
+Treasure_haveExpEarn: true
+# Version 1.7 update
+# whether have particle effect
+Treasure_particle: true
+# Version 1.1 update
+# Enable treasure commands
+Treasure_command_enable: false
+# Version 1.1 update
+# whether have those item above
+Treasure_item_enable: true
